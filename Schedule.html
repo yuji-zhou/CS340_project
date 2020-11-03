@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <div>
+        <h1>Schedule</h1>
+        <table>
+            <tr>
+                <th>Schedule_Id</th>
+                <th>Classroom</th>
+                <th>Time</th>
+                <th colspan=2></th>
+            </tr>
+            <tr>
+                <td>123456</td>
+                <td>ILLC 141</td>
+                <td>11/02/2021 7:00</td>
+                <td><button class="btn_update">Update</button></td>
+                <td><button class="btn_remove">Remove</button></td>
+            </tr>
+        </table>
+        <h3>Add Schedule</h3>
+        <form>
+            <label for="Schedule_Id">Schedule_Id:</label>
+            <input type="number" name="Schedule_Id" id="Schedule_Id">
+
+            <label for="Classroom">Classroom:</label>
+            <input type="text" name="Classroom" id="Classroom">
+        
+            <label for="Time">Time:</label>
+            <input type="datetime" name="Time" id="Time">
+
+            <input type="submit" value="Submit" id="addButton">
+        </form>
+    </div>
+</body>
+</html>

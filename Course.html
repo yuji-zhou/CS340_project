@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <div>
+        <h1>Course</h1>
+        <table>
+            <tr>
+                <th>Course_Id</th>
+                <th>Instructor_Id</th>
+                <th>Textbook_Id</th>
+                <th>Schedule_Id</th>
+                <th>Title</th>
+                <th>Credit</th>
+                <th colspan=2></th>
+            </tr>
+            <tr>
+                <td>123456</td>
+                <td>234567</td>
+                <td>345678</td>
+                <td>456789</td>
+                <td>CS340</td>
+                <td>4</td>
+                <td><button class="btn_update">Update</button></td>
+                <td><button class="btn_remove">Remove</button></td>
+            </tr>
+        </table>
+        <h3>Add Course</h3>
+        <form>
+            <label for="Course_Id">Course_Id:</label>
+            <input type="number" name="Course_Id" id="Course_Id">
+
+            <label for="Instructor_Id">Instructor_Id:</label>
+            <input type="number" name="Instructor_Id" id="Instructor_Id">
+        
+            <label for="Textbook_Id">Textbook_Id:</label>
+            <input type="number" name="Textbook_Id" id="Textbook_Id">
+
+            <label for="Schedule_Id">Schedule_Id:</label>
+            <input type="number" name="Schedule_Id" id="Schedule_Id">
+
+            <label for="Title">Title:</label>
+            <input type="text" name="Title" id="Title">
+
+            <label for="Credit">Credit:</label>
+            <input type="number" name="Credit" id="Credit">
+
+            <input type="submit" value="Submit" id="addButton">
+        </form>
+    </div>
+</body>
+</html>

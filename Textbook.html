@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <div>
+        <h1>Textbook</h1>
+        <table>
+            <tr>
+                <th>Textbook_Id</th>
+                <th>Title</th>
+                <th>Publisher</th>
+                <th>Author</th>
+                <th colspan=2></th>
+            </tr>
+            <tr>
+                <td>123456</td>
+                <td>Introduction to Algorithms</td>
+                <td>MIT Press</td>
+                <td>Thomas H. Cormen/Charles E. Leiserson/Ronald L. Rivest/Clifford Stein</td>
+                <td><button class="btn_update">Update</button></td>
+                <td><button class="btn_remove">Remove</button></td>
+            </tr>
+        </table>
+        <h3>Add Textbook</h3>
+        <form>
+            <label for="Textbook_Id">Textbook_Id:</label>
+            <input type="number" name="Textbook_Id" id="Textbook_Id">
+
+            <label for="Title">Title:</label>
+            <input type="text" name="Title" id="Title">
+
+            <label for="Publisher">Publisher:</label>
+            <input type="text" name="Publisher" id="Publisher">
+        
+            <label for="Author">Author:</label>
+            <input type="text" name="Author" id="Author">
+            <input type="submit" value="Submit" id="addButton">
+        </form>
+    </div>
+</body>
+</html>
